@@ -52,7 +52,7 @@ def cut_image(image):
 def save_images(image_list): 
     index = 1 
     #创建result文件夹
-    res_dir = os.path.join(os.path.dirname(__file__), 'result')
+    res_dir = os.path.join('/storage/emulated/0', 'result')
     if not os.path.exists(res_dir):
         os.mkdir(res_dir)
  
@@ -76,4 +76,4 @@ if __name__ == '__main__':
     image_list = cut_image(image)
     #
     save_images(image_list)
-    print('程序结束！')
+    print('程序结束,前往手机根目录result文件夹查看.')
