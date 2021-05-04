@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#!/usr/lib/python
+#!/usr//python
 from PIL import Image
 import sys
 import os
