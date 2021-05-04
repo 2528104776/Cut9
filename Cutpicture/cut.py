@@ -1,4 +1,3 @@
-# -*- coding: UTF-8 -*-
 #!/usr/bin/python
 from PIL import Image
 import sys
